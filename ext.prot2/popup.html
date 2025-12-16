@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Provide Real-World Applications</title>
+    <style>
+      body { font-family: Arial, sans-serif; width: 360px; padding: 10px; }
+      button { padding: 8px 12px; margin-bottom: 8px; }
+      #result { white-space: pre-wrap; max-height: 420px; overflow: auto; border: 1px solid #ddd; padding: 8px; }
+      textarea { width: 100%; height: 6em; }
+    </style>
+  </head>
+  <body>
+    <h3>Provide Real-World Applications</h3>
+    <div>
+      <label>Extra instructions (optional)</label>
+      <textarea id="promptExtra" placeholder="E.g., 'Use simple language, include headings and an example.'"></textarea>
+    </div>
+    <button id="explainBtn">GET</button>
+    <h4>Result</h4>
+    <div id="result">Status</div>
+    <div id="status" style="color: gray; font-size: 12px; margin-top: 6px;"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

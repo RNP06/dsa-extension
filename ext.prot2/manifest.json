@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Applications of data structures",
+  "version": "CF Workers v1.0",
+  "description": "Give real world applications for the relevant data structure.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Applications of data structures"
+  },
+  "content_security_policy": {
+  "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://gemini-proxy-worker.extprojlc.workers.dev"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
