@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Applications of data structures",
-  "version": "CF Workers v1.0",
-  "description": "Give real world applications for the relevant data structure.",
+  "version": "2.0",
+  "description": "Gives real world applications for the relevant data structure.",
   "permissions": [
     "storage",
     "activeTab",
